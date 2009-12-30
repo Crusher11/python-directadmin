@@ -1,0 +1,8 @@
+#summary List of pending features and tasks
+#labels Featured
+
+= To-Do List =
+
+The following is a list of tasks that are pending on the development of this API.
+
+  * Implement HTTPS support
