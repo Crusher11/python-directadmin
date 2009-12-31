@@ -22,9 +22,12 @@ Options:
 
 == Examples ==
 
+Suspend the user "baduser" at mydirectadminserver.com host. In this case we will be prompted to enter admin's password.
 {{{
 ./suspension.py -u admin -H mydirectadminserver.com suspend baduser
 }}}
+
+Un-suspend the user "fineuser" at localhost. In this case we will be prompted to enter admin/reseller username and password.
 {{{
 ./suspension.py unsuspend fineuser
 }}}
