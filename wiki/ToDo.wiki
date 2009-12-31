@@ -2,3 +2,4 @@
 #labels Featured
 
   * Implement HTTPS support
+  * Implement missing methods (there are still lots of them to be implemented!)
