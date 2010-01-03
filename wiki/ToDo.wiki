@@ -1,5 +1,5 @@
 #summary List of pending features and tasks
 #labels Featured
 
-  * Implement HTTPS support
-  * Implement missing methods (there are still lots of them to be implemented!)
+  * ~~Implement HTTPS support~~ Test HTTPS support
+  * Implement user modification methods
