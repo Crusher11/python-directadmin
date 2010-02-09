@@ -3,7 +3,7 @@
 
 = Introduction =
 
-One of the sample scripts included in the source of python-directadmin (under the "extra" folder), is called daconsole.py. This little script provides an interactive console to interact with a Directadmin Server. 
+One of the sample scripts included in the source of python-directadmin, is called daconsole.py. This little script provides an interactive console to interact with a Directadmin Server. 
 
 Currently the commands available within this console are very few. In the future some more could be added, and the console itself could be refined. 
 
