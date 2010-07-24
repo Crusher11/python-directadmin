@@ -11,13 +11,13 @@ Currently the commands available within this console are very few. In the future
 
 The current commands available in the console are:
 
-  * `connect`     - Connect to a Directadmin Server
-  * `help`        - Print command information
-  * `quit`        - Quit the console
-  * `server_info` - Prints statistical information about the server
-  * `suspend`     - Suspends a user on Directadmin
-  * `unsuspend`   - Un-suspends a user on Directadmin
-  * `version`     - Print version information
+  * ~~`connect`              - Connect to a Directadmin Server~~ _not available in latest revision_
+  * `help | ?`               - Print command information
+  * `quit | Ctrl+C | Ctrl+D` - Quit the console
+  * `server_info`            - Prints statistical information about the server
+  * `suspend`                - Suspends a user on Directadmin
+  * `unsuspend`              - Un-suspends a user on Directadmin
+  * `version`                - Print version information
 
 = To-Do =
 
