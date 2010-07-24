@@ -1,0 +1,27 @@
+#summary Basic intercative console for managing a Directadmin Server
+#labels Phase-Deploy
+
+= Introduction =
+
+One of the sample scripts included in the source of python-directadmin, is called daconsole.py. This little script provides an interactive console to interact with a Directadmin Server. 
+
+Currently the commands available within this console are very few. In the future some more could be added, and the console itself could be refined. 
+
+= Details =
+
+The current commands available in the console are:
+
+  * ~~`connect`              - Connect to a Directadmin Server~~ _not available in latest revision_
+  * `help | ?`               - Print command information
+  * `quit | Ctrl+C | Ctrl+D` - Quit the console
+  * `server_info`            - Prints statistical information about the server
+  * `suspend`                - Suspends a user on Directadmin
+  * `unsuspend`              - Un-suspends a user on Directadmin
+  * `version`                - Print version information
+
+= To-Do =
+
+  * Implement more API commands
+  * The `connect` command currently works only on interactive mode, you call it and it asks you for the connection information. The user should be able to pass that information as a parameter of the command.
+  * Connection information could also be defined at a configuration file
+  * The console should be able to handle more than one host, so that a single console running on one box could monitor many different servers
