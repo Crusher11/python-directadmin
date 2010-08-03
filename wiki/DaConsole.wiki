@@ -35,18 +35,19 @@ The script also accepts the following parameters when invoked.
 
 The configuration file is a simple .ini file. You can define different servers (with connection and login information) by defining different sections of the file like this:
 
- [server1]
- hostname = server1.domain.com
- port = 9999
- username = admin
- password = admin123
+{{{
+[server1]
+hostname = server1.domain.com
+port = 9999
+username = admin
+password = admin123
 
- [server2]
- hostname = server2.domain.com
- username = admin
- password = admin123
- https = True
-
+[server2]
+hostname = server2.domain.com
+username = admin
+password = admin123
+https = True
+}}}
 = To-Do =
 
   * Implement more API commands
