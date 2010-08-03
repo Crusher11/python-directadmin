@@ -48,6 +48,29 @@ username = admin
 password = admin123
 https = True
 }}}
+
+=== Using a configuration file ===
+
+*Default*
+
+By default DAConsole looks for the file ~/.daconsole.conf (this is a file called ".daconsole.conf" located on the user's home folder). 
+
+*Defining a new configuration file*
+
+You can use de `-c` or `--config` command line parameter to define a specific configuration file location. For example:
+
+{{{
+./daconsole.py -c /etc/daconsole.conf
+}}}
+
+*Changing the default configuration file*
+
+If you want to change the default location for the configuration file, you can change the value of the variable `__config__` which is near the top of the daconsole.py file (under `__revision__`). For example:
+
+{{{
+__config__ = '/etc/daconsole.conf'
+}}}
+
 = To-Do =
 
   * Implement more API commands
