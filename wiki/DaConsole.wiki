@@ -53,7 +53,7 @@ https = True
 
 *Default*
 
-By default DAConsole looks for the file ~/.daconsole.conf (this is a file called ".daconsole.conf" located on the user's home folder). 
+By default DAConsole looks for the file `~/.daconsole.conf` (this is a file called ".daconsole.conf" located on the user's home folder). 
 
 *Defining a new configuration file*
 
