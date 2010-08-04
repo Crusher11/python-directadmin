@@ -1,5 +1,5 @@
 #summary Description of the da_suspension script included in the source
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 
 == Introduction ==
 
