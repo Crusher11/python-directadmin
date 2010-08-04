@@ -1,15 +1,15 @@
-#summary Description of the suspension.py script included in the source
+#summary Description of the da_suspension script included in the source
 #labels Phase-Deploy
 
 == Introduction ==
 
-The python-directadmin source includes a little script file called [http://code.google.com/p/python-directadmin/source/browse/trunk/suspension.py suspension.py]. The main purpose of it is being a sample of the usage of the API. However it may be useful to suspend/unsuspend users from command line.
+The python-directadmin source includes a little script file called [http://code.google.com/p/python-directadmin/source/browse/trunk/scripts/da_suspension da_suspension]. The main purpose of it is being a sample of the usage of the API. However it may be useful to suspend/unsuspend users from command line.
 
 
 == Usage ==
 
 {{{
-suspension.py [options] suspend|unsuspend <username>
+da_suspension [options] suspend|unsuspend <username>
 }}}
 
 Options:
@@ -24,10 +24,10 @@ Options:
 
 Suspend the user "baduser" at mydirectadminserver.com host. In this case we will be prompted to enter admin's password.
 {{{
-./suspension.py -u admin -H mydirectadminserver.com suspend baduser
+da_suspension -u admin -H mydirectadminserver.com suspend baduser
 }}}
 
 Un-suspend the user "fineuser" at localhost. In this case we will be prompted to enter admin/reseller username and password.
 {{{
-./suspension.py unsuspend fineuser
+da_suspension unsuspend fineuser
 }}}
