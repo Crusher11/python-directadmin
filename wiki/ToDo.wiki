@@ -1,6 +1,7 @@
 #summary List of pending features and tasks
-#labels Featured
+#labels Deprecated
 
   * ~~Implement HTTPS support~~ Test HTTPS support
   * ~~Implement user modification methods~~
-  * ~~Create `setup.py` script~~ Test setup.py script
+  * ~~Create `setup.py` script~~
+  * ~~Test setup.py script~~
