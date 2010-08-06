@@ -16,12 +16,15 @@ The current commands available in the console are:
   * `connect`                - Connect to a Directadmin Server
   * `config_file`            - Shows the configuration file in use
   * `help | ?`               - Print command information
+  * `list`                   - Prints the list of users of a certain type (users/resellers/admins)
   * `quit | Ctrl+C | Ctrl+D` - Quit the console
   * `server_info`            - Prints statistical information about the server
   * `show_servers`           - Shows all the configured servers
   * `suspend`                - Suspends a user on Directadmin
   * `unsuspend`              - Un-suspends a user on Directadmin
   * `version`                - Print version information
+
+*New*: now the suspend, unsuspend and list commands come with auto-complete. If you are connected to a server, you can use tab i.e. to complete the username to suspend!
 
 == Parameters ==
 
